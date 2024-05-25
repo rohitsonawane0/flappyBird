@@ -62,7 +62,7 @@ class PlayScene extends BaseScene {
     this.checkGameStatus();
     this.recyclePipes();
   }
-
+  //
   listenToEvents() {
     if (this.pauseEvent) {
       return;
